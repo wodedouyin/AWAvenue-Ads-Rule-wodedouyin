@@ -5,7 +5,7 @@
 </div>
 
 
-<h1 align="center">-AWAvenue 秋风广告规则 -</h1>
+<h1 align="center">-AWAvenue 秋风广告规则 Modby-@wodedouyin-</h1>
 
 <p align="center">
    <img src="https://jsd.onmicrosoft.cn/gh/TG-Twilight/AWAvenue-Ads-Rule@main/assets/assets.png">
@@ -80,7 +80,3 @@
 > [@Github](https://github.com/TG-Twilight/AWAvenue-Ads-Rule) · [@Telegram Channel](https://t.me/AWAvenueAdsRule) · [@Telegram Group](https://t.me/AWAvenueAdsChat)
 
 <br />
-
-## 赞助商 | Special sponsors
-
-[倾城极速 - 畅游世界，高速互联](https://x7a4ds7s.wcnmdmht.biz/#/register?code=prbbRzx9)

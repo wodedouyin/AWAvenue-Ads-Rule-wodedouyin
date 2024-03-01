@@ -134,6 +134,7 @@
 ||api-access.pangolin-sdk-toutiao5.com^
 ||api-ad-product.huxiu.com^
 ||api-adservices.apple.com^
+||xp.apple.com^
 ||api-htp.beizi.biz^
 ||api.ad.xiaomi.com^
 ||api.htp.hubcloud.com.cn^

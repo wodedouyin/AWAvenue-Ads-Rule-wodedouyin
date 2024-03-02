@@ -205,6 +205,9 @@
 ||doubleclick.net^
 ||dutils.com^
 ||dxp.baidu.com^
+||mime.baidu.com^
+||wetype.weixin.qq.com^
+||wetype.wxqcloud.qq.com^
 ||*.ad.xiaomi.com^
 ||eclick.baidu.com^
 ||googleadservices-cn.com^

@@ -436,6 +436,7 @@
 ||is.snssdk.com^
 ||ixav-cse.avlyun.com^
 ||iyfbodn.com^
+||ad.bczcdn.com^
 ||janapi.jd.com^
 ||jfapi.chiq-cloud.com^
 ||jiguang.cn^

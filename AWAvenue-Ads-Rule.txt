@@ -1,6 +1,6 @@
 ! Title: AWAvenue 秋风广告规则（AWAvenue-Ads-Rule）Moded by @wodedouyin
-! 规则版本: 1.4.2.wodedouyin
-! 更新时间: 2024-03-1
+! 规则版本: 1.4.3.wodedouyin
+! 更新时间: 2024-03-05
 ! 
 ! 原项目地址：https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 ! 
@@ -14,10 +14,15 @@
 ||8le8le.com^
 ||a0.app.xiaomi.com^
 ||aaid.umeng.com^
+||*.umeng.com^
+||.umengcloud.com^
 ||ad-scope.com^
 ||ad-scope.com.cn^
 ||ad-sdk.huxiu.com^
 ||ad.12306.cn^
+||mob.com^
+||api.df.mob.com^
+||def.mic.mob.com^
 ||ad.51wnl.com^
 ||ad.bwton.com^
 ||ad.cyapi.cn^
@@ -384,6 +389,7 @@
 ||grs.hicloud.com^
 ||adsdk.vivo.com.cn^
 ||h-adashx.ut.taobao.com^
+||ad.alibabacorp.com.gds.alibabadns.com^
 ||h.trace.qq.com^
 ||henzanapp.com^
 ||hexagon-analytics.com^
@@ -409,6 +415,8 @@
 ||apple-finance.query.yahoo.com^
 ||dzc-metrics.mzstatic.com^
 ||feedbackws.icloud.com^
+||configuration.apple.com^
+||configuration.ls.apple.com^
 ||gs-loc-cn.apple.com^
 ||iphone-ld.apple.com^
 ||fmiphone-apple.com^
@@ -424,7 +432,9 @@
 ||iadsdk.apple.com^
 ||iadworkbench.apple.com^
 ||ib.snssdk.com^
+||ioshost.qtlcdn.com^
 ||ifs.tanx.com^
+||static.tinyadx.com^
 ||image-ad.sm.cn^
 ||imageplus.baidu.com^
 ||images.pinduoduo.com^
@@ -470,6 +480,7 @@
 ||log.stat.kugou.com^
 ||log.tagtic.cn^
 ||log.tbs.qq.com^
+||finderad.video.qq.com^
 ||log.vcgame.cn^
 ||log.web.kugou.com^
 ||log.web.kugou.com^
@@ -792,6 +803,7 @@
 ||tdc.qq.com^
 ||tdid.m.qq.com^
 ||terms-drcn.platform.dbankcloud.cn^
+||configdownload.dbankcdn.cn^
 ||test.ad.xiaomi.com^
 ||test.e.ad.xiaomi.com^
 ||tj.b.qq.com^
@@ -846,6 +858,7 @@
 ||polaris*-normal-hl.zijieapi.com^
 ||polaris*-normal-lq.zijieapi.com^
 ||saveu5-normal-lq.zijieapi.com^
+||panglelog.gz.bcebos.com^
 ||mcs.zijieapi.com^
 ||dm-hl.toutiao.com^
 ||dm.bytedance.com^
@@ -863,9 +876,26 @@
 ||tnc3-aliec2.bytedance.com^
 ||tnc3-aliec2.toutiaoapi.com^
 ||tnc3-alisc1.bytedance.com^
+||tnc3-aliec2.zijieapi.com^
 ||tnc3-bjlgy.bytedance.com^
 ||tnc3-bjlgy.toutiaoapi.com^
+||webcast.amemv.com^
+||apmlog.snssdk.com^
+||applog.snssdk.com^
+||rtlog.snssdk.com^
+||cdn-tos-cn.bytedance.net^
+||sf3-fe-tos.pglstatp-toutiao.com^
+||sf1-amtos-cdn.bytesmanager.com^
 ||toblog.ctobsnssdk.com^
+||sf6-ttcdn-tos.pstatp.com^
+||apps.bytesfield-b.com^
+||apps.bytesfield.com^
+||cpro.baidustatic.com^
+||aden.baidu.com^
+||mi-eo.gdt.qq.com^
+||cpu.baidu.com^
+||cpu-openapi.baidu.com^
+||union.eff.qq.com^
 ||trace.qq.com^
 ||track.lc.quark.cn^
 ||track.uc.cn^

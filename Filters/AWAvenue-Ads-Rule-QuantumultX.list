@@ -1,6 +1,6 @@
 ## Title: AWAvenue 秋风广告规则（AWAvenue-Ads-Rule）
 ## 规则版本: 1.4.0
-## 更新时间: 2024-02-27
+## 更新时间: 2024-02-29
 ## 
 ## 项目地址：https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 ## 
@@ -11,10 +11,7 @@
 ## 频道链接：https://t.me/AWAvenueAdsRule
 ## 
 ## This project is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license.
-## 
-## 倾城极速 - 畅游世界，高速互联！官网：https://wcnmdmht.lol/sb 官网2：https://panel.qc02.xyz
-## 
-
+##
 DOMAIN,1010pic.com,reject
 DOMAIN,8le8le.com,reject
 DOMAIN,a0.app.xiaomi.com,reject

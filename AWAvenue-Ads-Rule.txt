@@ -1,6 +1,6 @@
 ! Title: AWAvenue 秋风广告规则（AWAvenue-Ads-Rule）Moded by @wodedouyin
 ! 规则版本: 1.4.3.wodedouyin
-! 更新时间: 2024-03-05
+! 更新时间: 2024-03-09
 ! 
 ! 原项目地址：https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 ! 

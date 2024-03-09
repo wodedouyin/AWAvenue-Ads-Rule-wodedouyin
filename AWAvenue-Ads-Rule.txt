@@ -428,6 +428,12 @@
 ||stocks-analytics-events.news.apple-dns.net^
 ||supportmetrics.apple.com^
 ||weather-analytics-events.news.apple-dns.net^
+||captive.apple.com^
+||gdmf.apple.com^
+||gdmf.v.applimg.com^
+||connect-drcn.dbankcloud.cn^
+||update.cdn-apple.com^
+||log.weixin.qq.com^
 ||iadctest.qwapi.com^
 ||iadsdk.apple.com^
 ||iadworkbench.apple.com^
@@ -863,6 +869,12 @@
 ||dm-hl.toutiao.com^
 ||dm.bytedance.com^
 ||dm.toutiao.com^
+||ctobsnssdk.com^
+||pangolin.snssdk.com^ 
+||pangolin-sdk-toutiao.com^ 
+||pangolin-sdk-toutiao-b.com^ 
+||pglstatp-toutiao.com^
+||mssdk-bu.bytedance.com^
 ||tnc*-bjlgy*.zijieapi^
 ||tnc*-alisc*.zijieapi.com^
 ||tnc*-aliec*.bytedance.com^
@@ -962,6 +974,7 @@
 ||w1.yskwai.com^
 ||w1.zskwai.com^
 ||*adkwai.com^
+||ad-*-kuaishou-api.*.com.cn^
 ||weather-analytics-events.apple.com^
 ||weather-community-drcn.weather.dbankcloud.cn^
 ||weather-drcn.music.dbankcloud.cn^
@@ -978,6 +991,8 @@
 ||xlivrdr.com^
 ||xlmzc.cnjp-exp.com^
 ||xlog.jd.com^
+||mllog.jd.com^
+||log.meituan.com^
 ||xlviiirdr.com^
 ||xlviirdr.com^
 ||youxi.kugou.com^
@@ -1007,6 +1022,11 @@ consumerapp*.image.myqcloud.com^
 ||ntzbnz.oss-ap-southeast-1.aliyuncs.com^
 ||xloadu.oss-ap-northeast-1.aliyuncs.com^
 ||petkvl.oss-cn-hongkong.aliyuncs.com^
+||api2.coolapk.com/v6/feed/detail$replace=/"include_goods_ids":\[.*?]\,"include_goods":\[.*?]\,/ /
+||api2.coolapk.com/v6/feed/detail$replace=/\,"detailSponsorCard":{.*}/}}/
+||api2.coolapk.com/v6/main/init$replace=/{"id":1170.*?}\,/ /
+||api2.coolapk.com/v6/page/dataList$replace=/{"entityType":"card"\,"entityTemplate":"apkImageCard".*?\\u0022}"}\,/ /
+||api2.coolapk.com/v6/main/indexV8$replace=/{"entityType":"card"\,"entityTemplate":"listCard".*?}"}\,/ /
 /*-ad-*.byteimg.com/
 /*-ad-sign.byteimg.com/
 /*-ad.sm.cn/

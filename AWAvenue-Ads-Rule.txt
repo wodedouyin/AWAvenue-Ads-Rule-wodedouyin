@@ -1,6 +1,6 @@
 ! Title: AWAvenue 秋风广告规则（AWAvenue-Ads-Rule）Moded by @wodedouyin
 ! 规则版本: 1.4.3.wodedouyin
-! 更新时间: 2024-03-09
+! 更新时间: 2024-03-10
 ! 
 ! 原项目地址：https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 ! 
@@ -437,6 +437,17 @@
 ||iadctest.qwapi.com^
 ||iadsdk.apple.com^
 ||iadworkbench.apple.com^
+||inappcheck.itunes.apple.com^
+||smp-device-content.apple.com^
+||mesu.apple.com^
+||*-fmipmobile.icloud.com^
+||path*-xtracloud.net^
+||gateway.icloud.com^
+||shuzilm.cn^
+||auni.telecome.cn^
+||*.shuzilm.cn^
+||tpns.tencent.com^
+||apilocate.amap.com^
 ||ib.snssdk.com^
 ||ioshost.qtlcdn.com^
 ||ifs.tanx.com^
@@ -904,6 +915,8 @@
 ||apps.bytesfield.com^
 ||cpro.baidustatic.com^
 ||aden.baidu.com^
+||xmadsdk.cos.tx.xmcdn.com^
+||afdconf.baidu.com^
 ||mi-eo.gdt.qq.com^
 ||cpu.baidu.com^
 ||cpu-openapi.baidu.com^

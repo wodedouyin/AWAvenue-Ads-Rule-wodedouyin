@@ -1,6 +1,6 @@
 ! Title: AWAvenue 秋风广告规则（AWAvenue-Ads-Rule）Moded by @wodedouyin
-! 规则版本: 1.4.3.wodedouyin
-! 更新时间: 2024-03-10
+! 规则版本: 1.4.5.wodedouyin
+! 更新时间: 2024-03-17
 ! 
 ! 原项目地址：https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 ! 
@@ -52,6 +52,8 @@
 ||adexpo.tencentmusic.com^
 ||adfilter.imtt.qq.com^
 ||adjust.cn^
+||ad.tk.cn^
+||tradenotice.18.cn^
 ||adkwai.com^
 ||adlog.flurry.com^
 ||ads-api-o.api.leiniao.com^
@@ -80,6 +82,7 @@
 ||adservice.google.com^
 ||adservice.sigmob.cn^
 ||*.sigmob.cn^
+||ad.richmob.cn^
 ||*.8le8le.com^
 ||mobile.events.data.microsoft.com^
 ||self.events.data.microsoft.com^
@@ -422,6 +425,15 @@
 ||fmiphone-apple.com^
 ||fmfmobile.icloud.com.cn^
 ||*-fmfmobile.icloud.com.cn^
+||*-fmimobile.icloud.com.cn^
+||*-fmf.icloud.com^
+||fmf.*.apple-dns.net^
+||stocks-data-servers.apple.com^
+||init.gc.apple.com^
+||gsas.apple.com^
+||bag.itunes.apple.com^
+||buy.itunes-apple.com.akadns.net^
+||setup.icloud.com^
 ||notes-analytics-events.news.apple-dns.net^
 ||securemvt.apple.com^
 ||stocks-analytics-events.apple.com^
@@ -605,6 +617,7 @@
 ||geofence.sys.miui.com^
 ||globalapi.ad.xiaomi.com^
 ||go.mi.edu^
+||stun.miwifi.com^
 ||hysdkservice.g.mi.com^
 ||inpost-polska-mi.order6457.me^
 ||jellyfish.pandora.xiaomi.com^
@@ -811,6 +824,9 @@
 ||success.ctobsnssdk.com^
 ||syh-imp.cdnjtzy.com^
 ||t-dsp.pinduoduo.com^
+||log.wechatpay.cn^
+||log.weixin.qq.com^
+||in-addr.arpa^
 ||t.l.qq.com^
 ||t.track.ad.xiaomi.com^
 ||t1.a.market.xiaomi.com^
@@ -906,9 +922,17 @@
 ||apmlog.snssdk.com^
 ||applog.snssdk.com^
 ||rtlog.snssdk.com^
+||tobapplog.ctobsnssdk.com^
+||phoniex.toutiao.com^
+||rtapplog.snssdk.com^
 ||cdn-tos-cn.bytedance.net^
 ||sf3-fe-tos.pglstatp-toutiao.com^
 ||sf1-amtos-cdn.bytesmanager.com^
+||lf16-effectcdn.byteeffecttos-g.com^
+||lf9-cdn-tos.bytecdntp.com^
+||lf9-open-ma-pkg.bytemastatic.com^
+||lf26-aweme-app.bytetos.com^
+||lf26-toutiao-lite-saveu.bytetos.com^
 ||toblog.ctobsnssdk.com^
 ||sf6-ttcdn-tos.pstatp.com^
 ||apps.bytesfield-b.com^
@@ -1005,6 +1029,7 @@
 ||xlmzc.cnjp-exp.com^
 ||xlog.jd.com^
 ||mllog.jd.com^
+||ak-d.tripcdn.com^
 ||log.meituan.com^
 ||xlviiirdr.com^
 ||xlviirdr.com^
@@ -1012,7 +1037,23 @@
 ||apimobile.meituan.com^
 ||zeus.ad.xiaomi.com^
 ||*.hubcloud.com.cn^
+||download.windowsupdate.com^
 consumerapp*.image.myqcloud.com^
+||mp.weixin.qq.com/tp/ad_detail_info^
+||mp.weixin.qq.com/mp/ad_biz_info^
+||mp.weixin.qq.com/tp^
+||badjs.weixinbridge.com^
+||mp.weixin.qq.com/bizmall/expressentry^
+||mp.weixin.qq.com/s/index.html^
+||mp.weixin.qq.com/mp/jsreport?^
+||mp.weixin.qq.com/mp/jsmonitor^
+||bdstatic.com/tb/WechatIMG^
+||szlong.weixin.qq.com^
+||wxs.qq.com^
+||vp.html5.qq.com^
+||sensors.cloud.tencent.com^
+||as.weixin.qq.com^
+||aegis.qq.com^
 ||*snscosdownload/*/*^
 ||*snssvpdownload/*/*mp4*^
 ||*getappmsgad*^
@@ -1020,6 +1061,23 @@ consumerapp*.image.myqcloud.com^
 ||*getappmsgad*^
 ||sensors-sat.nio.com^
 ||broadcast.chat.bilibili.com^
+||dataflow.biliapi.com^
+||data.bilibili.com^
+||api.blibili.com/x/pd-proxy/tracker^
+||live-trace.bilibili.com^
+||line1-log.biligame.net^
+app.bilibili.com##[id^="ad_info"]
+||cm.bilibili.com/cm/api/conversion/mobile/v1^
+||cm.bilibili.com/mgk/page^
+||app.bilibili.com/x/feed^
+||app.bilibili.com/x/v2/splash/list?
+||miniapp.bilibili.com^
+||app.biliapi.net/x/v2/feed/index?$replace=/ad_info//
+||app.bilibili.com/x/v2/feed/index?$replace=/ad_info//
+||app.bilibili.com/x/v2/view?$replace=/ad_info//
+||cm.bilibili.com/cm/api/fees/wise
+||app.bilibili.com/x/v2/view$replace=/{"pic".*?"stat".*?"new_card".*?}\,//
+/app_ads^
 ||*/game/abtest/*^
 ||*/auto_download/game_pkg_list/*^
 ||upos-*-static.bilivideo.com^
@@ -1040,6 +1098,7 @@ consumerapp*.image.myqcloud.com^
 ||api2.coolapk.com/v6/main/init$replace=/{"id":1170.*?}\,/ /
 ||api2.coolapk.com/v6/page/dataList$replace=/{"entityType":"card"\,"entityTemplate":"apkImageCard".*?\\u0022}"}\,/ /
 ||api2.coolapk.com/v6/main/indexV8$replace=/{"entityType":"card"\,"entityTemplate":"listCard".*?}"}\,/ /
+/ads/*.js
 /*-ad-*.byteimg.com/
 /*-ad-sign.byteimg.com/
 /*-ad.sm.cn/
@@ -1058,6 +1117,7 @@ consumerapp*.image.myqcloud.com^
 /*.log.aliyuncs.com/
 /*.shouji.sogou.com/
 /*.zskwai.com/
+_ad/*.js*$domain~mp.weixin.qq.com
 /ads*-normal-*.zijieapi.com/
 /cloud-inject-global.oss-cn-hongkong.aliyuncs.com/
 /cloudinject*-dev.*.*-*-*.amazonaws.com/

@@ -572,6 +572,7 @@
 ||tracking.intl.miui.com^
 ||tracking.india.miui.com^
 ||api.sec.miui.com^
+||updateinfo.market.xiaomi.com^
 ||flash.sec.miui.com^
 ||etl-xlmc-ssl.sandai.net^
 ||cn.app.chat.xiaomi.net^

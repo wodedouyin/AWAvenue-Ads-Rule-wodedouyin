@@ -1,6 +1,6 @@
 ! Title: AWAvenue 秋风广告规则（AWAvenue-Ads-Rule）Moded by @wodedouyin
-! 规则版本: 1.4.5.wodedouyin
-! 更新时间: 2024-03-17
+! 规则版本: 1.4.6.wodedouyin
+! 更新时间: 2024-03-20
 ! 
 ! 原项目地址：https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 ! 
@@ -231,6 +231,7 @@
 ||voicelog.xinlianxiang.com^
 ||voiceapi.xinlianxiang.com^
 ||api.ads66.com^
+||ad.richmob.cn^
 ||ib.adnxs.com^
 ||match.adsrvr.org^
 ||rtb.mfadsrvr.com^
@@ -376,6 +377,21 @@
 ||g-staic.ganjingworld.com^
 ||g-staic.ganjingworld.com^
 ||g2.ganjing.world^
+||youtube.com/*/log_interaction^
+||youtube.com/csi_204^
+||youtube.com/api/stats^
+||youtube.com/annotations_invideo?$xmlhttprequest^
+||youtube.com/ptracking?pltype=adhost
+||www.youtube.com/ptracking?
+||youtube.com/pagead/
+||ads.youtube.com^
+||google.com/log?
+||play.google.com/log^
+||youtube.googleapis.com/youtube/v1/log_event?
+||youtube.com/youtube/v1/log_event?
+||youtube.googleapis.com/youtube/v1/config?
+||googleads.g.doubleclick.net^
+||jnn-pa.googleapis.com^
 ||game.loveota.com^
 ||gdfp.gifshow.com^
 ||gemini.yahoo.com^
@@ -397,6 +413,7 @@
 ||henzanapp.com^
 ||hexagon-analytics.com^
 ||hiboard-drcn.ai.dbankcloud.cn^
+||grs.platform.dbankcloud.ru^
 ||hm.baidu.com^
 ||hmma.baidu.com^
 ||httpdns.bcelive.com^
@@ -460,6 +477,10 @@
 ||*.shuzilm.cn^
 ||tpns.tencent.com^
 ||apilocate.amap.com^
+||path1.xtracloud.net^
+||path2.xtracloud.net^
+||path3.xtracloud.net^
+||xtracloud.net^
 ||ib.snssdk.com^
 ||ioshost.qtlcdn.com^
 ||ifs.tanx.com^
@@ -909,6 +930,12 @@
 ||tnc*-bjlgy*.bytedance.com^
 ||tnc*-aliec*.toutiaoapi.com^
 ||tnc*-bjlgy*.toutiaoapi.com^
+||tnc3-alisc1.zijieapi.com^
+||tnc3-alisc2.zijieapi.com^
+||tnc3-bjlgy.zijieapi.com^
+||panglelog.gz.bcebos.com^
+||sf3-fe-tos.pglstatp-toutiao.com^
+||pglstatp-toutiao.com^
 ||abtest*-misc*-*.zijieapi.com^
 ||ads*-normal-*.zijieapi.com^
 ||ma*-normal-lq.zijieapi.com^
@@ -945,6 +972,7 @@
 ||mi-eo.gdt.qq.com^
 ||cpu.baidu.com^
 ||cpu-openapi.baidu.com^
+||appcloud2.in.zhihu.com^
 ||union.eff.qq.com^
 ||trace.qq.com^
 ||track.lc.quark.cn^
@@ -1019,6 +1047,11 @@
 ||webstat.qiumibao.com^
 ||win.gdt.qq.com^
 ||wn.x.jd.com^
+||orbit.jd.com^
+||kepler.jd.com^
+||dsp-x.jd.com^
+||knicks.jd.com^
+||mapi.m.jd.com^
 ||ws-keyboard.shouji.sogou.com^
 ||ws.sj.qq.com^
 ||www42.zskwai.com^

@@ -77,6 +77,15 @@
 ||ads5-normal-hl.zijieapi.com^
 ||ads5-normal-lf.zijieapi.com^
 ||ads5-normal-lq.zijieapi.com^
+||bj.ad.track.66mobi.com^
+||sdk-ab-config.qquanquan.com^
+||sdk.hzsanjiaomao.com^
+||hzsanjiaomao.com^
+||sdk.mobads.adwangmai.com^
+||tdsdk.cpatrk.net^
+||tdsdk.xdrig.com^
+||tracelog-debug.qquanquan.com^
+||tvuser-ch.cedock.com^
 ||adsense.google.cn^
 ||adservice.google.cn^
 ||adservice.google.com^

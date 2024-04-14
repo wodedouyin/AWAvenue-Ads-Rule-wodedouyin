@@ -1,5 +1,5 @@
 ! Title: AWAvenue 秋风广告规则（AWAvenue-Ads-Rule）Moded by @wodedouyin
-! 规则版本: 1.4.6.2.wodedouyin
+! 规则版本: 1.4.6.3.wodedouyin
 ! 更新时间: 2024-03-22
 ! 
 ! 原项目地址：https://github.com/TG-Twilight/AWAvenue-Ads-Rule
@@ -241,7 +241,12 @@
 ||voiceapi.xinlianxiang.com^
 ||api.ads66.com^
 ||ad.richmob.cn^
+||sigmob.com^
+||sigmob.cn^
 ||ib.adnxs.com^
+||*.sigmob.com^
+||*.sigmob.cn^
+||123.56.23.22^
 ||match.adsrvr.org^
 ||rtb.mfadsrvr.com^
 ||dsp.adfarm1.adition.com^
@@ -1054,6 +1059,16 @@
 ||weather-community-drcn.weather.dbankcloud.cn^
 ||weather-drcn.music.dbankcloud.cn^
 ||webstat.qiumibao.com^
+||flowplus.meituan.net^
+||analytics.meituan.net^
+||meituan.yoga^
+||meituangov.cn^
+||report.meituan.com^
+||wmlog.meituan.com^
+||ad.e.waimai.sankuai.com^
+||mads.meituan.com^
+||dreport.meituan.net^
+||d.meituan.net^
 ||win.gdt.qq.com^
 ||wn.x.jd.com^
 ||orbit.jd.com^
@@ -1121,6 +1136,19 @@ app.bilibili.com##[id^="ad_info"]
 ||cm.bilibili.com/cm/api/fees/wise
 ||app.bilibili.com/x/v2/view$replace=/{"pic".*?"stat".*?"new_card".*?}\,//
 /app_ads^
+||app.bilibili.com/x/v2/splash/show^
+||app.bilibili.com/x/v2/splash/brand/list^
+||app.bilibili.com/x/v2/splash/event/list2^
+||app.bilibili.com/x/v2/splash/list^
+||api.zhihu.com/commercial_api/real_time_launch_v2^
+||api.zhihu.com/commercial_api/launch_v2^
+||interface3.music.163.com/eapi/ad/loading/get^
+||interface3.music.163.com/eapi/ad/sniffing^
+||interface3.music.163.com/eapi/android/upgrade/get^
+||interface3.music.163.com/eapi/ad/loading/current^
+||interface3.music.163.com/eapi/ad/config/get^
+||interface3.music.163.com/eapi/ad/get^
+||interface3.music.163.com/eapi/ad/*^
 ||*/game/abtest/*^
 ||*/auto_download/game_pkg_list/*^
 ||upos-*-static.bilivideo.com^
